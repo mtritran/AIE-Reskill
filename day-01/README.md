@@ -64,6 +64,10 @@ uv run python main.py
 
 ## 2. Python Metaprogramming: Closure, Higher-order Function & Decorator
 
+- 📖 **Tài liệu tham khảo chuyên sâu:**
+  - [03-python-decorator.md](file:///D:/Study%20&%20Learning/AIE-Reskill/day-01/03-python-decorator.md) (Best practices, Context Managers, Closures, Decorators & AI Tool Calling)
+  - [04-python-higher-order-functions.md](file:///D:/Study%20&%20Learning/AIE-Reskill/day-01/04-python-higher-order-functions.md) (Higher-Order Functions: map, filter, reduce, custom pipelines & Agent Router)
+
 Trong các framework Agentic (LangGraph, Agno, CrewAI, Autogen), metaprogramming được ứng dụng liên tục để:
 - Đăng ký công cụ (Tool Registry qua `@tool`).
 - Đo lường độ trễ (latency tracking), token counting, retry khi gọi LLM APIs.
@@ -203,6 +207,8 @@ schema = ToolCallRequest.model_json_schema()
 ---
 
 ## 4. Python Event Loop & Async Programming (`asyncio`, `httpx`)
+
+- 📖 **Tài liệu tham khảo chuyên sâu & thực hành:** [05-python-event-loop-async.md](file:///D:/Study%20&%20Learning/AIE-Reskill/day-01/05-python-event-loop-async.md) (Event Loop, TaskGroup, Semaphore throttling, httpx, Streaming tokens)
 
 ### 4.1. Kiến trúc Concurrency trong Python: I/O-bound vs CPU-bound
 Trong hệ thống AI/Agent:
